@@ -12,8 +12,6 @@
                         @else
                         <b>{{Auth::user()->user}}</b>
                     @endguest
-                    @endif
-
                     {{ __('You are logged in!') }}
                 </div>
             </div>
